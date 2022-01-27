@@ -27,6 +27,6 @@ async def meme(ctx):
 @bot.command()
 async def code(ctx):
     print(ctx)
-    await ctx.channel.send("https://github.com/LoboAdrian/programmerhumor")
+    await ctx.channel.send("https://github.com/LoboAdrian/alonsojr")
 
 bot.run(env['TOKEN'])
